@@ -1,14 +1,5 @@
 module.exports = {
-    parser: '@typescript-eslint/parser',
-    parserOptions: {
-      ecmaVersion: 2018,
-      sourceType: 'module',
-      project: './tsconfig.json',
-      ecmaFeatures: {
-        jsx: true
-      }
-    },
-    plugins: ['@typescript-eslint', 'babel', 'react-hooks'],
+    plugins: ['@typescript-eslint', 'react-hooks'],
     extends: [
       'standard',
       'plugin:@typescript-eslint/recommended',
